@@ -257,6 +257,12 @@ footer{
 
   .sidebar{
     width: 100%;
+    margin-top: 20px;
+  }
+
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .position{
@@ -266,6 +272,33 @@ footer{
   .blog{
     width: 100%;
     margin: 0;
+  }
+  
+   .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+
+
+  .instagram{
+    width: 100%;
+  }
+
+   .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+   .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+
+   .pagination {
+    margin-bottom: 50px;
+  }
+
+  .categories{
+    width: 100%;
   }
 
 }
